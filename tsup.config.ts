@@ -5,6 +5,7 @@ export default defineConfig({
   entry: {
     app: "src/example.ts",
   },
+  outDir: 'api',
   // 产物格式，包含 esm 和 cjs 格式
   format: ["cjs"],
   // 目标语法

@@ -3,11 +3,11 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "dist/app.js"
+            "dest": "api/app.js"
         }
     ],
     "functions": {
-        "dist/app.js": {
+        "api/app.js": {
             "maxDuration": 1,
             "memory": 128
         }
