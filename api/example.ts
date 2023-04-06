@@ -15,3 +15,9 @@ app.get('/ping', (_, res) => {
 app.get('/hello', (_, res) => {
     res.send('Hello there!')
 });
+
+app.listen(process.env.PORT || 3000, () => {
+    console.log(`Example app listening at http://localhost:${process.env.PORT || 3000}`)
+})
+
+export default app;
